@@ -68,7 +68,7 @@ rm -rf $AUD
 sed -i "/bgm_system.sh/d" $RPCONFIGS/runcommand-onstart.sh >/dev/null 2>&1
 sed -i "/bgm_system.sh/d" $RPCONFIGS/runcommand-onend.sh >/dev/null 2>&1
 sed -i "/bgm_system.sh/d" $RPCONFIGS/autostart.sh >/dev/null 2>&1
-rm -rf $BGMMUSICS
+#rm -rf $BGMMUSICS
 ########################
 ########################
 
