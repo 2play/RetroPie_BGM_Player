@@ -30,7 +30,7 @@ infobox="${infobox}Any issue with this effect, please report to\n https://github
 infobox="${infobox}A special thanks to crcerror / cyperghost, for developing the base script\n for the fade effect. https://github.com/crcerror\n"
 infobox="${infobox}___________________________________________________________________________\n\n"
 
-dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "BGM Fade Effect Alert" --msgbox "${infobox}" 0 0
+dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "BGM Fade Effect" --msgbox "${infobox}" 0 0
 }
 #description
 

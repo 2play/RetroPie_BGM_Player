@@ -25,7 +25,7 @@ infobox="${infobox}RetroPie BGM Player Toggle\n\n"
 infobox="${infobox}Set BGM Player ON/OFF .\n"
 infobox="${infobox}___________________________________________________________________________\n\n"
 
-dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "BGM Toggle Description" --msgbox "${infobox}" 0 0
+dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "BGM ON/OFF Description" --msgbox "${infobox}" 0 0
 }
 #description
 
@@ -37,7 +37,7 @@ function main_menu() {
 		source $BGMSETTINGS >/dev/null 2>&1
 		[ $bgm_toggle -eq 0 ] && status=( "disabled" "Enable" 1 )  || status=( "enabled" "Disable" 0 )
 		
-        choice=$(dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "Toggle BGM" \
+        choice=$(dialog --backtitle "RetroPie BGM Player v.$bgm_version" --title "BGM Player ON/OFF" \
             --ok-label "Select" --cancel-label "Back" --no-tags \
             --menu "BGM Player is ${status[0]}" 25 75 20 \
             1 "${status[1]} BGM Player" \

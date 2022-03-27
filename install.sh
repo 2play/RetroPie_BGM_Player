@@ -29,7 +29,7 @@ echo -e " ${LRED}####################################${NC}"
 echo -e " ${LRED}#${NC}  ${GREEN}Installing RetroPie_BGM_Player${NC}  ${LRED}#${NC}"
 echo -e " ${LRED}####################################${NC}\n"
 
-BGMGITBRANCH="dev"
+BGMGITBRANCH="playbox_v2"
 RP="$HOME/RetroPie"
 RPMENU="$RP/retropiemenu"
 RPSETUP="$HOME/RetroPie-Setup"
@@ -115,7 +115,7 @@ sleep 1
 ## Install BGM Player ##
 ########################
 
-echo -e " ${LRED}[${NC}${LGREEN} Installing  Naprosnia BGM Player v2.0.2022 (PlayBox Version) ${NC}${LRED}]${NC}"
+echo -e " ${LRED}[${NC}${LGREEN} Installing Naprosnia BGM Player v2.0.2022 (PlayBox Version) ${NC}${LRED}]${NC}"
 sleep 1
 
 echo -e " ${LRED}-${NC}${WHITE} Change some permissions...${NC}"
