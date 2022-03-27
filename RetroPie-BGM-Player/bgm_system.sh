@@ -1,13 +1,14 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2 for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	bgm_system.sh
-#Date			:	20190227	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	This script contain all functions needed by BGM.
 #Usage			:	It should be called from other scripts using arguments.
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
@@ -74,7 +75,7 @@ AUDSETTINGS="$AUD/config"
 
 MUSICPLAYER="audacious"
 
-mp3files=("mp3")
+mp3files=("mp3" "ogg")
 emufiles=("ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
 
 

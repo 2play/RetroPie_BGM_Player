@@ -1,13 +1,14 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	bgm_setfade.sh
-#Date			:	20190222	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	BGM Player fade effect menu.
 #Usage			:	Should be called from bgm_control.sh.
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
@@ -25,7 +26,7 @@ infobox="${infobox}This option enables the fading effect when music start or sto
 infobox="${infobox}Fade effect is highly experimental.\n"
 infobox="${infobox}If you encounter any error or malfunction related to audio volume, or even\n if this option does not work for you, disable it.\n"
 infobox="${infobox}If you use other audio channels other than PCM (default), this option will\n certainly not work.\n"
-infobox="${infobox}Any issue with this effect, please report to\n https://github.com/Naprosnia/RetroPie_BGM_Player/.\n\n"
+infobox="${infobox}Any issue with this effect, please report to\n https://github.com/2play/RetroPie_BGM_Player/.\n\n"
 infobox="${infobox}A special thanks to crcerror / cyperghost, for developing the base script\n for the fade effect. https://github.com/crcerror\n"
 infobox="${infobox}___________________________________________________________________________\n\n"
 

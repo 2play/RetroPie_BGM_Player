@@ -1,16 +1,16 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Version		:	2.0
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	install.sh
-#Date			:	20190227	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	The installation script.
-#Usage			:	wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/install.sh
+#Usage			:	wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/master/install.sh
 #				:	chmod +x install.sh
 #				:	bash install.sh
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
@@ -103,7 +103,7 @@ if [ ${#installpackages[@]} -gt 0 ]; then
 	echo -e " ${LRED}---${NC}${WHITE} Installing missing packages and dependencies...${NC}${ORANGE}\n"
 	sleep 1
 	
-	sudo apt-get update; sudo apt-get install -y ${installpackages[@]}
+	sudo apt update; sudo apt install -y ${installpackages[@]}
 
 fi
 echo -e "\n ${NC}${LRED}--${NC}${GREEN} All packages and dependencies are installed.${NC}\n"
@@ -115,7 +115,7 @@ sleep 1
 ## Install BGM Player ##
 ########################
 
-echo -e " ${LRED}[${NC}${LGREEN} Installing RetroPie BGM Player v2 ${NC}${LRED}]${NC}"
+echo -e " ${LRED}[${NC}${LGREEN} Installing  Naprosnia BGM Player v2.0.2022 (PlayBox Version) ${NC}${LRED}]${NC}"
 sleep 1
 
 echo -e " ${LRED}-${NC}${WHITE} Change some permissions...${NC}"
@@ -137,7 +137,7 @@ function gitdownloader(){
 	unset files[last_id]
 
 	for i in "${files[@]}"; do
-		wget -N -q --show-progress "https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/$BGMGITBRANCH$path/$i"
+		wget -N -q --show-progress "https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/$BGMGITBRANCH$path/$i"
 		#chmod a+rwx "$i"
 	done
 }
@@ -171,9 +171,9 @@ BGMFILES=("config" )
 gitdownloader ${BGMFILES[@]} "/audconfig"
 
 cd $BGMMUSICS
-BGMFILES=("music.zip")
-gitdownloader ${BGMFILES[@]} "/music"
-unzip -o music.zip  && rm -f music.zip
+#BGMFILES=("music.zip")
+#gitdownloader ${BGMFILES[@]} "/music"
+#unzip -o music.zip  && rm -f music.zip
 
 echo -e "\n ${NC}${LRED}--${NC}${WHITE} Applying permissions...${NC}"
 sleep 1

@@ -1,13 +1,14 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	bgm_control.sh
-#Date			:	20190218	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	BGM Player settings main menu.
 #Usage			:	Should be called from RetroPie\ BGM\ Player.sh.
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################

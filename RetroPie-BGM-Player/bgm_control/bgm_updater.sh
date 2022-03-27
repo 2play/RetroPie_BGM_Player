@@ -1,13 +1,14 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	bgm_udater
-#Date			:	20190302	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	BGM Player updater
 #Usage			:	Should be called from bgm_control.sh.
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
@@ -19,8 +20,8 @@ BGMSETTINGS="$BGM/bgm_settings.ini"
 source $BGMSETTINGS >/dev/null 2>&1
 source $VERSION >/dev/null 2>&1
 
-GITVERSION="https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/$bgm_gitbranch/RetroPie-BGM-Player/version.sh"
-GITINSTALL="https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/$bgm_gitbranch/install.sh"
+GITVERSION="https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/$bgm_gitbranch/RetroPie-BGM-Player/version.sh"
+GITINSTALL="https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/$bgm_gitbranch/install.sh"
 
 bgm_curversion=$bgm_version
 bgm_curdate=$bgm_date

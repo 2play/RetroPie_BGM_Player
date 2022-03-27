@@ -1,13 +1,14 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	bgm_setplayercustom.sh
-#Date			:	20190227	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	BGM Player select player custom file types
 #Usage			:	Should be called from bgm_control.sh.
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
@@ -16,7 +17,7 @@ BGM="$HOME/RetroPie-BGM-Player"
 BGMSETTINGS="$BGM/bgm_settings.ini"
 VERSION="$BGM/version.sh"
 source $VERSION >/dev/null 2>&1
-filetypes=("mp3" "ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
+filetypes=("mp3" "ogg" "ay" "gbs" "gym" "hes" "kss" "nsf" "nsfe" "sap" "spc" "vgm" "vgz" "vtx" "2sf" "psf" "psf2")
 
 function main_menu() {
     local choice
@@ -33,6 +34,7 @@ function main_menu() {
             --ok-label "Select" --cancel-label "Back" --no-tags  --default-item "$choice" \
             --menu "Select your Player" 25 75 20 \
             "mp3" " [$ft_mp3] MP3" \
+            "ogg" " [$ft_ogg] OGG" \
 			"ay" " [$ft_ay] Spectrum ZX (.ay)" \
 			"gbs" " [$ft_gbs] GameBoy (.gbs)" \
 			"gym" " [$ft_gym] Sega Genesis (.gym)" \

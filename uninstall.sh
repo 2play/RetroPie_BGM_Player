@@ -1,15 +1,16 @@
 #!/bin/bash 
 #####################################################################
-#Project		:	RetroPie_BGM_Player
-#Git			:	https://github.com/Naprosnia/RetroPie_BGM_Player
+#Project		:	Naprosnia RetroPie_BGM_Player for PlayBox v2
+#Version		:	2.0.2022
+#Git			:	https://github.com/2play/RetroPie_BGM_Player
 #####################################################################
 #Script Name	:	uninstall.sh
-#Date			:	20190227	(YYYYMMDD)
+#Date			:	20220325	(YYYYMMDD)
 #Description	:	The removal script.
-#Usage			:	wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/uninstall.sh
+#Usage			:	wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/master/uninstall.sh
 #				:	chmod +x uninstall.sh
 #				:	bash uninstall.sh
-#Author       	:	Luis Torres aka Naprosnia
+#Author       	:	Luis Torres aka Naprosnia, PlayBox v2 version By 2Play!
 #####################################################################
 #Credits		:	crcerror : https://github.com/crcerror
 #####################################################################
@@ -74,12 +75,12 @@ rm -rf $BGMMUSICS
 ########################
 ##  mpg123 uninstall  ##
 ########################
-echo -e "[Remove Music Player]\n"
-sleep 1
-sudo apt-get --purge remove -y ${MUSICPLAYER[@]}
+#echo -e "[Remove Music Player]\n"
+#sleep 1
+#sudo apt --purge remove -y ${MUSICPLAYER[@]}
 
-echo -e "\n[Removal finished.]\n"
-sleep 1
+#echo -e "\n[Removal finished.]\n"
+#sleep 1
 ########################
 ########################
 

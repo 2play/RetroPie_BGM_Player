@@ -1,21 +1,23 @@
-# RetroPie BGM Player v2.0
+# RetroPie BGM Player v2.0.2022 Revamped By 2Play! For PlayBox v2
+(To be part of PlayBox v2 Tinker Vanilla and similar as single script of PlayBox RetroPie Structured Menu)
+
 A simple background music player with emulation support, to implement on RetroPie and Emulation Station based on [this](https://retropie.org.uk/forum/topic/9133/quick-and-easy-guide-for-adding-music-to-emulatonstation-on-retropie-noob-friendly) guide from RetroPie forum.
 
 ## Installation
-1. `wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/install.sh`
-2. `chmod +x install.sh`
-3. `./install.sh`
+- `wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/master/install.sh`
+- `chmod +x install.sh`
+- `./install.sh`
 
 ## Usage
 * ES setting `OTHER SETTINGS / PARSE GAMELISTS ONLY` should be `OFF`, otherwise you can not see `RetroPie-BGM-Player` options menu.
 * To change settings, go to `RetroPie-BGM-Player` on RetroPie settings menu.
 * Fade effect is disabled by default, go to `RetroPie-BGM-Player` settings menu to enable it.
-* You don't like my music?! Easy for you, simply go to your roms folder, and inside you will find a new folder called "music", you can put there the musics you want. *You can now organize your files with subfolders as you wish.*
+* Place your music in roms/music folder. You can pick from PlayBox Toolkit my other 3 music selections. *You can now organize your files with subfolders as you wish.*
 
 ## Supported File Types
 Emulator / Name | Extension
 :---: | :---:
-MPEG-2 Audio Layer III | .mp3
+MPEG-2 Audio Layer III | .mp3 .ogg
 Spectrum ZX | .ay
 Sega Genesis / Megadrive | .gym
 NEC PC Engine / TurboGrafx-16 | .hes
@@ -47,18 +49,15 @@ Playstation Audio | .psf / .psf2
   * `Reload Audio Files` - If you add new songs/files, this option reload them, or restart your system to reload automatically.
 * `BGM Update` - Update RetroPie BGM Player
 
-## Next Release Preview
-* Add support to more file types.
-
-## Video
+## Video [Original Naprosnia]
 [![RetroPie BGM Player](https://img.youtube.com/vi/CP-Kz6OAueM/0.jpg)](https://www.youtube.com/watch?v=CP-Kz6OAueM)
 
 ## Uninstall
-1. `wget -N https://raw.githubusercontent.com/Naprosnia/RetroPie_BGM_Player/master/uninstall.sh`
-2. `chmod +x uninstall.sh`
-3. `./uninstall.sh`
+- `wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/master/uninstall.sh`
+- `chmod +x uninstall.sh`
+- `./uninstall.sh`
 
 ## Donate
-You want to buy me a burger? Click the button below.
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.me/naprosnia)
+Support original developer at [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.me/naprosnia)
+Join my 2Play! discord for more PlayBox v2 news etc.
+Your support is always welcome.
