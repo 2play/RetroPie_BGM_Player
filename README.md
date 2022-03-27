@@ -58,7 +58,6 @@ Playstation Audio | .psf / .psf2
 - `./uninstall.sh`
 
 ## Donate
-Support original developer at [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.me/naprosnia)
-Join my 2Play! discord for more PlayBox v2 news etc.
-Your support is always welcome.
+Support original developer at: https://www.paypal.me/naprosnia
 
+Join my 2Play! discord for more PlayBox v2. Your support is always welcome..
