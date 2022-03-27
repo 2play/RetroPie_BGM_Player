@@ -96,7 +96,12 @@ VOLUMESTEP=
 
 function bgm_init(){
 
-	# if script called from autostart.sh, wait for omxplayer (splashscreen) to end
+	# if script called from autostart.sh, wait for splashscreen player to end
+	if [ "$1" == "--autostart" ]; then
+		while pgrep mpv >/dev/null; do sleep 1; done
+		reloadaudiofiles
+		sleep $bgm_delay
+	fi
 	if [ "$1" == "--autostart" ]; then
 		while pgrep omxplayer >/dev/null; do sleep 1; done
 		reloadaudiofiles
