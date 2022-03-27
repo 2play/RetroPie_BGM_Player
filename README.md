@@ -4,7 +4,7 @@
 A simple background music player with emulation support, to implement on RetroPie and Emulation Station based on [this](https://retropie.org.uk/forum/topic/9133/quick-and-easy-guide-for-adding-music-to-emulatonstation-on-retropie-noob-friendly) guide from RetroPie forum.
 
 ## Installation
-- `wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/master/install.sh`
+- `wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/playbox_v2/install.sh`
 - `chmod +x install.sh`
 - `./install.sh`
 
@@ -53,7 +53,7 @@ Playstation Audio | .psf / .psf2
 [![RetroPie BGM Player](https://img.youtube.com/vi/CP-Kz6OAueM/0.jpg)](https://www.youtube.com/watch?v=CP-Kz6OAueM)
 
 ## Uninstall
-- `wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/master/uninstall.sh`
+- `wget -N https://raw.githubusercontent.com/2play/RetroPie_BGM_Player/playbox_v2/uninstall.sh`
 - `chmod +x uninstall.sh`
 - `./uninstall.sh`
 
