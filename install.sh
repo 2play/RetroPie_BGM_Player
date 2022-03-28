@@ -228,7 +228,7 @@ sleep 1
 ########################
 ##       Restart      ##
 ########################
-rm $HOME/$RPMENU/RetroPie-BGM-Player.sh
+rm $RPMENU/RetroPie-BGM-Player.sh
 if [ "$1" == "--update" ]; then
 	(rm -f $SCRIPTPATH; bash $BGMCONTROL/bgm_updater.sh --reboot)
 else
